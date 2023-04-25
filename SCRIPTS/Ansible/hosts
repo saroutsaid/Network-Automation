@@ -1,0 +1,56 @@
+## Ansible Hosts File for Lab 
+
+[sandbox]
+#sandbox-iosxe-recomm-1.cisco.com
+sandbox-iosxe-latest-1.cisco.com
+
+[CSR_Routers]
+R1 ansible_host=192.168.1.220
+R2 ansible_host=192.168.1.221
+R3 ansible_host=192.168.1.222
+R4 ansible_host=192.168.1.223
+R5 ansible_host=192.168.1.224
+R6 ansible_host=192.168.1.225 
+R7 ansible_host=192.168.1.226
+R8 ansible_host=192.168.1.227
+R9 ansible_host=192.168.1.228 
+R10 ansible_host=192.168.1.229
+R11 ansible_host=192.168.1.230 
+R12 ansible_host=192.168.1.231
+R13 ansible_host=192.168.1.232
+R14 ansible_host=192.168.1.233
+
+
+[SWITCHES]
+2960 ansible_host=192.168.1.250
+
+[NXOS]
+N9K-1 ansible_host=192.168.1.210
+N9K-2 ansible_host=192.168.1.211
+
+[bigip]
+BIG-IP-1-V ansible_host=192.168.1.180 
+
+[WLC]
+WLC-1 ansible_host=192.168.1.231
+
+[ASAv]
+ASAv-1 ansible_host=192.168.1.245
+ASAv-2 ansible_host=192.168.1.246 
+
+[SD_WAN]
+vManage ansible_host=192.168.199
+vSmart ansible_host=192.168.1.200 
+vBond ansible_host=192.168.1.201 
+
+[ACI_Sandbox]
+sandboxapicdc.cisco.com
+
+[palo]
+PA-1 ansible_host=192.168.1.128
+
+
+
+
+
+

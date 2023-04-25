@@ -1,0 +1,12 @@
+---
+## Playbook to configure some stuff 
+
+- hosts: CSR_Routers
+
+  tasks:
+  - name: Push config file 
+    ios_config:
+      src: "~/network-programmability/CONFIGS/test.txt"
+
+
+
